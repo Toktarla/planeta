@@ -1,0 +1,683 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "description": "Minor Planet",
+      "explanation": "Mercury is a rocky planet with a surface scarred by craters, similar in appearance to our Moon. It has extreme temperature variations, with scorching hot days and freezing cold nights due to its lack of atmosphere to retain heat. Mercury takes just 88 Earth days to orbit the Sun and rotates very slowly, with one day on Mercury lasting about 59 Earth days. It has been explored by several spacecraft, including NASA's MESSENGER mission, which revealed valuable insights about its composition and geology.",
+      "image_url": "assets/images/mercury_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Venus",
+      "description": "Earth's Sister Planet",
+      "explanation": "Venus has a thick and toxic atmosphere primarily composed of carbon dioxide, which traps heat and leads to extreme surface temperatures that can melt lead. It experiences a runaway greenhouse effect, making it one of the hottest planets in our solar system. The surface is marked by vast plains, volcanoes, and highland regions. Despite its challenging conditions, spacecraft like the Soviet Venera missions and NASA's Magellan have provided valuable data about Venus's surface and atmosphere.",
+      "image_url": "assets/images/venus_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Earth",
+      "description": "Habitable Planet",
+      "explanation": "Earth is a diverse and dynamic world with a wide range of ecosystems, including oceans, forests, deserts, and more. It has a unique atmosphere, rich in oxygen and nitrogen, which is crucial for sustaining life as we know it. Earth orbits the Sun at just the right distance, allowing for a temperate climate that supports a wide variety of species. The presence of liquid water and a stable climate make it a haven for life, including humans.",
+      "image_url": "assets/images/earth_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Mars",
+      "description": "Red Planet",
+      "explanation": "Mars is a cold, desert-like planet with a thin atmosphere primarily composed of carbon dioxide. It features a diverse landscape, including massive volcanoes like Olympus Mons, a vast canyon system known as Valles Marineris, and evidence of ancient river valleys and lake beds. Mars has been a target for exploration, with rovers like Curiosity and Perseverance searching for signs of past or present life. Future missions aim to prepare for potential human colonization.",
+      "image_url": "assets/images/mars_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Jupiter",
+      "description": "Gas Giant",
+      "explanation": "Jupiter is a massive ball of gas, primarily composed of hydrogen and helium. It has a dynamic atmosphere filled with colorful cloud bands and a massive storm known as the Great Red Spot. Jupiter also hosts a system of dozens of moons, including the four largest, known as the Galilean moons: Io, Europa, Ganymede, and Callisto. The planet's powerful gravity affects the orbits of nearby objects and plays a crucial role in the stability of our solar system.",
+      "image_url": "assets/images/jupiter_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Saturn",
+      "description": "Ringed Planet",
+      "explanation": "Saturn is another gas giant with a complex set of rings made up of icy and rocky particles. These rings are divided into numerous ringlets and are a subject of scientific study and fascination. Saturn also boasts a diverse collection of moons, with Titan being one of the most intriguing due to its thick atmosphere and potential for liquid lakes of methane and ethane. The planet's rings and moons have been explored by missions like Cassini-Huygens.",
+      "image_url": "assets/images/saturn_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Uranus",
+      "description": "Ice Colossal",
+      "explanation": "Uranus is unique among the planets in our solar system because it rotates on its side, likely due to a past collision. This axial tilt results in extreme seasons and a peculiar magnetic field orientation. The planet's blue-green color is attributed to the absorption of red light by its methane-rich atmosphere. Uranus has a ring system and a collection of moons, some of which were discovered by the Voyager 2 spacecraft during its flyby in 1986.",
+      "image_url": "assets/images/uranus_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Neptune",
+      "description": "Windy Planet",
+      "explanation": "Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system.More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.",
+      "image_url": "assets/images/neptune_icon.png",
+      "planetType": "Primary",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Moon",
+      "description": "Earth's natural satellite",
+      "explanation": "It is about one-quarter the size of Earth and has a significant impact on our planet, influencing tides and stabilizing Earth's rotation. The Moon has a barren and airless surface marked by craters, mountains, and plains. It's been the subject of human exploration, with the Apollo missions landing astronauts on its surface between 1969 and 1972.",
+      "image_url": "assets/images/moon_icon.png",
+      "planetType": "Satellite",
+      "whatis": ""
+    },
+    {
+      "name": "Pluto",
+      "description": "Lost Baby",
+      "explanation": "Pluto is relatively small, cold, and has an elongated, elliptical orbit. It has five known moons, with Charon being the largest and closest. Pluto was visited by the New Horizons spacecraft in 2015, providing valuable data about its surface and environment. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.",
+      "image_url": "assets/images/pluto_icon.png",
+      "planetType": "Dwarf",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Ceres",
+      "description": "Largest Object in the Asteroid",
+      "explanation": "It's unique in that it is the only dwarf planet in the inner solar system. Ceres is composed of a mixture of rock and water ice and may have a subsurface ocean. NASA's Dawn spacecraft orbited Ceres from 2015 to 2018, providing insights into its surface features, including bright spots that are believed to be deposits of salt.",
+      "image_url": "assets/images/ceres_icon.png",
+      "planetType": "Dwarf",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Eris",
+      "description": "Pluto's friend",
+      "explanation": "It gained prominence in the early 21st century when its discovery led to the reevaluation of the criteria for classifying planets. Eris is roughly the same size as Pluto and has a highly elliptical orbit that takes it far from the Sun. It has one known moon called Dysnomia.",
+      "image_url": "assets/images/eris_icon.png",
+      "planetType": "Dwarf",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Haumea",
+      "description": "Peculiar Shape",
+      "explanation": "Haumea is elongated and somewhat resembles a rugby ball. It rotates rapidly, completing a full rotation in just a few hours. This rapid rotation has flattened it and caused it to have two small moons, Hi'iaka and Namaka. Haumea is named after a Hawaiian goddess.",
+      "image_url": "assets/images/haumea_icon.png",
+      "planetType": "Dwarf",
+      "whatis": "Planet"
+    },
+    {
+      "name": "MakeMake",
+      "description": "Donut Shaped Planet",
+      "explanation": "Makemake is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. Slightly smaller than Pluto, Makemake is the second-brightest object in the Kuiper Belt as seen from Earth (while Pluto is the brightest). It takes about 305 Earth years for this dwarf planet to make one trip around the Sun.",
+      "image_url": "assets/images/makemake_icon.png",
+      "planetType": "Dwarf",
+      "whatis": "Planet"
+    },
+    {
+      "name": "PlanetX",
+      "description": "Planet Nine",
+      "explanation": "Caltech researchers have found mathematical evidence suggesting there may be a \"Planet X\" deep in the solar system. This hypothetical Neptune-sized planet orbits our Sun in a highly elongated orbit far beyond Pluto. The object, which the researchers have nicknamed \"Planet Nine,\" could have a mass about 10 times that of Earth and orbit about 20 times farther from the Sun on average than Neptune. It may take between 10,000 and 20,000 Earth years to make one full orbit around the Sun.",
+      "image_url": "assets/images/planetx_icon.png",
+      "planetType": "Abstract",
+      "whatis": "Planet"
+    },
+    {
+      "name": "Kepler-16b",
+      "description": "Gas Giant",
+      "explanation": "Kepler-16b was the Kepler telescope’s first discovery of a planet in a “circumbinary” orbit– circling two stars, as opposed to one star in a double-star system. Like Luke Skywalker's home planet Tatooine, Kepler-16b would have two sunsets if you could stand on its surface. This planet, however, is likely cold, about the size of Saturn and gaseous, though partly composed of rock. It lies outside its two stars’ “habitable zone,” where liquid water could exist",
+      "image_url": "assets/images/kepler16b_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    },
+    {
+      "name": "Kepler-186f",
+      "description": "Super Earth",
+      "explanation": "Kepler-186f is considered one of the first Earth-sized exoplanets discovered in the habitable zone of its star, where conditions might be suitable for liquid water to exist on its surface.",
+      "image_url": "assets/images/Kepler-186f_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    },
+    {
+      "name": "OGLE-2005",
+      "description": "Neptune Like",
+      "explanation": "OGLE-2005-BLG-390Lb (known sometimes as Hoth by NASA[1]) is a super-Earth exoplanet orbiting OGLE-2005-BLG-390L, a star 21,500 ± 3,300 light-years (6,600 ± 1,000 parsecs) from Earth near the center of the Milky Way, making it one of the most distant planets known. On January 25, 2006, Probing Lensing Anomalies NETwork/Robotic Telescope Network (PLANET/Robonet), Optical Gravitational Lensing Experiment (OGLE), and Microlensing Observations in Astrophysics (MOA) made a joint announcement of the discovery. The planet does not appear to meet conditions presumed necessary to support life.",
+      "image_url": "assets/images/OGLE_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    },
+    {
+      "name": "TRAPPIST-1e",
+      "description": "Terrestrial",
+      "explanation": "TRAPPIST-1 e is a terrestrial exoplanet that orbits an M-type star. Its mass is 0.692 Earths, it takes 6.1 days to complete one orbit of its star, and is 0.02925 AU from its star. Its discovery was announced in 2017.",
+      "image_url": "assets/images/TRAPPIST_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    },
+    {
+      "name": "HD 209458b",
+      "description": "Osiris",
+      "explanation": "This exoplanet, often referred to as Osiris, was one of the first to have its atmosphere studied in detail. It's a gas giant orbiting very close to its parent star.",
+      "image_url": "assets/images/osiris_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    },
+    {
+      "name": "Proxima Centauri b",
+      "description": "Super Earth",
+      "explanation": "Proxima Centauri b is an exoplanet orbiting the closest known star to the Sun, Proxima Centauri. It's located in the habitable zone and has generated interest as a potential target for future interstellar exploration.",
+      "image_url": "assets/images/proximab_icon.png",
+      "planetType": "",
+      "whatis": "Exoplanet"
+    }
+
+  ],
+  "quiz1": [
+    {
+      "question": "What type of planet is Mercury ?",
+      "variant1": "Rocky giant",
+      "variant2": "Ice giant",
+      "variant3": "Gas planet",
+      "variant4": "Dwarf planet",
+      "answer": "Rocky giant"
+    },
+    {
+      "question": "What is Venus's atmosphere primarily composed of ?",
+      "variant1": "Carbon dioxide",
+      "variant2": "Nitrogen",
+      "variant3": "Oxygen",
+      "variant4": "Methane",
+      "answer": "Carbon dioxide"
+    },
+    {
+      "question": "What is unique about Earth's atmosphere and climate ?",
+      "variant1": "It's primarily made of hydrogen",
+      "variant2": "It has extreme temperature variations",
+      "variant3": "Rich in oxygen and nitrogen",
+      "variant4": "A runaway greenhouse effect",
+      "answer": "Rich in oxygen and nitrogen"
+    },
+    {
+      "question": "How would you describe Mars' landscape ?",
+      "variant1": "Covered in water oceans",
+      "variant2": "Dense forests and jungles",
+      "variant3": "Extremely flat and featureless",
+      "variant4": "Cold, desert-like, with diverse features",
+      "answer": "Cold, desert-like, with diverse features"
+    },
+    {
+      "question": "What is Jupiter primarily made of, and what is its most famous storm called?",
+      "variant1": "Made of rock; famous storm is Hurricane Jupiter",
+      "variant2": "Made of hydrogen and helium; famous storm is Great Red Spot",
+      "variant3": "Made of water; famous storm is Neptune's Vortex",
+      "variant4": "Made of methane; famous storm is Martian Dust Storm",
+      "answer": "Made of hydrogen and helium; famous storm is Great Red Spot"
+    },
+    {
+      "question": "What distinguishes Saturn?",
+      "variant1": "Saturn has no rings or moons",
+      "variant2": "Saturn has icy and rocky rings and numerous moons",
+      "variant3": "Saturn has only one ring and one moon",
+      "variant4": "Saturn has rings of gold and no moons",
+      "answer": "Saturn has icy and rocky rings and numerous moons"
+    },
+    {
+      "question": "What makes Uranus stand out among the other planets in our solar system?",
+      "variant1": "It has a thick atmosphere rich in methane",
+      "variant2": "It rotates on its side",
+      "variant3": "It's the closest to the Sun",
+      "variant4": "It has a ring made of diamonds",
+      "answer": "It rotates on its side"
+    },
+    {
+      "question": "How is Neptune's climate described, and what makes it unique among the planets?",
+      "variant1": "Extremely hot; has a thick, toxic atmosphere",
+      "variant2": "Extremely cold; has a thin atmosphere rich in methane",
+      "variant3": "Extremely windy; has a rocky surface",
+      "variant4": "Very sunny; has liquid oceans",
+      "answer": "Extremely cold; has a thin atmosphere rich in methane"
+    },
+    {
+      "question": "How long does it take Mercury to orbit the Sun?",
+      "variant1": "365 days",
+      "variant2": "88 Earth days",
+      "variant3": "1,000 Earth years",
+      "variant4": "24 hours",
+      "answer": "88 Earth days"
+    },
+    {
+      "question": "Which planet was the first to be mathematically predicted before its actual discovery?",
+      "variant1": "Earth",
+      "variant2": "Uranus",
+      "variant3": "Neptune",
+      "variant4": "Venus",
+      "answer": "Uranus"
+    }
+
+  ],
+
+  "quiz2": [
+    {
+      "question": "What is the largest moon of Pluto ?",
+      "variant1": "Charon",
+      "variant2": "Ceres",
+      "variant3": "Eris",
+      "variant4": "Haumea",
+      "answer": "Charon"
+    },
+    {
+      "question": "Which spacecraft visited Pluto in 2015, providing valuable data about its surface and environment ?",
+      "variant1": "Voyager",
+      "variant2": "Hubble",
+      "variant3": "New Horizons",
+      "variant4": "Curiosity",
+      "answer": "New Horizons"
+    },
+    {
+      "question": "What is the term used to describe Pluto's classification in the solar system?",
+      "variant1": "Planet",
+      "variant2": "Asteroid",
+      "variant3": "Dwarf planet",
+      "variant4": "Comet",
+      "answer": "Dwarf planet"
+    },
+    {
+      "question": "Which dwarf planet is the only one located in the inner solar system ?",
+      "variant1": "Eris",
+      "variant2": "Ceres",
+      "variant3": "Haumea",
+      "variant4": "Makemake",
+      "answer": "Ceres"
+    },
+    {
+      "question": "What did NASA's Dawn spacecraft orbit from 2015 to 2018 ?",
+      "variant1": "Pluto",
+      "variant2": "Eris",
+      "variant3": "Ceres",
+      "variant4": "Haumea",
+      "answer": "Ceres"
+    },
+    {
+      "question": "Which dwarf planet's rapid rotation has flattened its shape and caused it to have two small moons, Hi'iaka and Namaka?",
+      "variant1": "Pluto",
+      "variant2": "Haumea",
+      "variant3": "Eris",
+      "variant4": "Makemake",
+      "answer": "Haumea"
+    },
+    {
+      "question": "Which dwarf planet is named after a Hawaiian goddess ?",
+      "variant1": "Pluto",
+      "variant2": "Eris",
+      "variant3": "Haumea",
+      "variant4": "Makemake",
+      "answer": "Haumea"
+    },
+    {
+      "question": "Which dwarf planet is located in the Kuiper Belt ?",
+      "variant1": "Pluto",
+      "variant2": "Eris",
+      "variant3": "Ceres",
+      "variant4": "Makemake",
+      "answer": "Eris"
+    },
+    {
+      "question": "What is the second-brightest object in the Kuiper Belt as seen from Earth ?",
+      "variant1": "Pluto",
+      "variant2": "Eris",
+      "variant3": "Haumea",
+      "variant4": "Makemake",
+      "answer": "Eris"
+    },
+    {
+      "question": "How long does it take Makemake to complete one trip around the Sun ?",
+      "variant1": "About 88 Earth days",
+      "variant2": "About 365 Earth days",
+      "variant3": "About 305 Earth years",
+      "variant4": "About 27 Earth years",
+      "answer": "About 305 Earth years"
+    }
+  ],
+
+  "quiz3": [
+    {
+      "question": "What is the nickname given to the hypothetical Neptune-sized planet beyond Pluto?",
+      "variant1": "Planet X",
+      "variant2": "Planet Y",
+      "variant3": "Planet Nine",
+      "variant4": "Planet Neptune",
+      "answer": "Planet Nine"
+    },
+    {
+      "question": "Approximately how many Earth years may it take for Planet Nine to make one full orbit around the Sun?",
+      "variant1": "1,000-2,000 years",
+      "variant2": "5,000-7,000 years",
+      "variant3": "10,000-20,000 years",
+      "variant4": "50,000-100,000 years",
+      "answer": "10,000-20,000 years"
+    },
+    {
+      "question": "Vulcan, often proposed in the past, was a hypothetical planet thought to be located closer to which celestial body?",
+      "variant1": "Mercury",
+      "variant2": "Venus",
+      "variant3": "Mars",
+      "variant4": "Jupiter",
+      "answer": "Mercury"
+    },
+    {
+      "question": "Tyche, another proposed exoplanet, is often associated with which region of the solar system?",
+      "variant1": "Near the asteroid belt",
+      "variant2": "In the Kuiper Belt",
+      "variant3": "In the Oort Cloud",
+      "variant4": "Beyond Pluto",
+      "answer": "In the Oort Cloud"
+    },
+    {
+      "question": "Which of these planets is believed to have a mass about 10 times that of Earth?",
+      "variant1": "Vulcan",
+      "variant2": "Tyche",
+      "variant3": "Planet Nine",
+      "variant4": "Pluto",
+      "answer": "Planet Nine"
+    },
+    {
+      "question": "What is the estimated size of Planet X (Planet Nine) compared to Neptune?",
+      "variant1": "Smaller than Neptune",
+      "variant2": "About the same size as Neptune",
+      "variant3": "Larger than Neptune",
+      "variant4": "Impossible to determine",
+      "answer": "Larger than Neptune"
+    },
+    {
+      "question": "Vulcan was originally proposed to explain peculiarities in the orbit of which innermost planet?",
+      "variant1": "Earth",
+      "variant2": "Mercury",
+      "variant3": "Venus",
+      "variant4": "Mars",
+      "answer": "Mercury"
+    },
+    {
+      "question": "Tyche, if it exists, is believed to be a massive planet in which region of the solar system?",
+      "variant1": "Close to the Sun",
+      "variant2": "In the asteroid belt",
+      "variant3": "In the Kuiper Belt",
+      "variant4": "In the Oort Cloud",
+      "answer": "In the Oort Cloud"
+    },
+    {
+      "question": "Vulcan and Tyche are both considered:",
+      "variant1": "Dwarf planets",
+      "variant2": "Exoplanets",
+      "variant3": "Gas giants",
+      "variant4": "Hypothetical planets",
+      "answer": "Hypothetical planets"
+    },
+    {
+      "question": "What is the estimated average distance of Planet Nine from the Sun compared to Neptune?",
+      "variant1": "About the same as Neptune",
+      "variant2": "Closer to the Sun than Neptune",
+      "variant3": "Farther from the Sun than Neptune",
+      "variant4": "Impossible to determine",
+      "answer": "Farther from the Sun than Neptune"
+    }
+  ],
+
+  "quiz4": [
+    {
+      "question": "Какая экзопланета была первой открытой в орбите 'двойной звезды' с помощью телескопа Кеплера?",
+      "variant1": "Kepler-16b",
+      "variant2": "Kepler-186f",
+      "variant3": "OGLE-2005-BLG-390Lb",
+      "variant4": "TRAPPIST-1 e",
+      "answer": "Kepler-16b"
+    },
+    {
+      "question": "Какая уникальная особенность разделяет Kepler-16b с родным планетой Люка Скайуокера Татуин?",
+      "variant1": "У нее два заката.",
+      "variant2": "Это газовый гигант.",
+      "variant3": "Она находится в зоне обитаемости.",
+      "variant4": "У нее каменистая поверхность.",
+      "answer": "У нее два заката."
+    },
+    {
+      "question": "Какая экзопланета считается одной из первых обнаруженных земельных экзопланет в зоне обитаемости своей звезды?",
+      "variant1": "Kepler-16b",
+      "variant2": "Kepler-186f",
+      "variant3": "OGLE-2005-BLG-390Lb",
+      "variant4": "TRAPPIST-1 e",
+      "answer": "Kepler-186f"
+    },
+    {
+      "question": "Какое другое имя иногда использует NASA для OGLE-2005-BLG-390Lb?",
+      "variant1": "Хот",
+      "variant2": "Татуин",
+      "variant3": "Альдераан",
+      "variant4": "Эндор",
+      "answer": "Хот"
+    },
+    {
+      "question": "Какая экзопланета считается одной из самых далеких из известных планет?",
+      "variant1": "Kepler-16b",
+      "variant2": "Kepler-186f",
+      "variant3": "OGLE-2005-BLG-390Lb",
+      "variant4": "TRAPPIST-1 e",
+      "answer": "TRAPPIST-1 e"
+    },
+    {
+      "question": "Какая экзопланета часто называется 'Осирис' и ее атмосфера была детально изучена?",
+      "variant1": "Kepler-16b",
+      "variant2": "Kepler-186f",
+      "variant3": "OGLE-2005-BLG-390Lb",
+      "variant4": "TRAPPIST-1 e",
+      "answer": "Kepler-186f"
+    },
+    {
+      "question": "Proxima Centauri b орбитирует вокруг какой известной звезды, ближайшей к Солнцу?",
+      "variant1": "Kepler-16",
+      "variant2": "Kepler-186",
+      "variant3": "Proxima Centauri",
+      "variant4": "TRAPPIST-1",
+      "answer": "Proxima Centauri"
+    },
+    {
+      "question": "В каком типе звездной системы находится TRAPPIST-1 e?",
+      "variant1": "Двойная звездная система",
+      "variant2": "Одиночная звезда",
+      "variant3": "Тройная звездная система",
+      "variant4": "Четыре звезды",
+      "answer": "Одиночная звезда"
+    },
+    {
+      "question": "Какова масса TRAPPIST-1 e по сравнению с Землей?",
+      "variant1": "Она больше Земли.",
+      "variant2": "Она примерно такая же, как Земля.",
+      "variant3": "Она меньше Земли.",
+      "variant4": "Это газовый гигант.",
+      "answer": "Она примерно такая же, как Земля."
+    },
+    {
+      "question": "Какая экзопланета вызывает интерес как потенциальная цель для будущего межзвездного исследования?",
+      "variant1": "Kepler-16b",
+      "variant2": "Kepler-186f",
+      "variant3": "OGLE-2005-BLG-390Lb",
+      "variant4": "Proxima Centauri b",
+      "answer": "Proxima Centauri b"
+    }
+  ],
+
+  "quiz5": [
+    {
+      "question": "Which moon is the largest moon in the solar system?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Europa",
+      "answer": "Ganymede"
+    },
+    {
+      "question": "Which moon of Jupiter is known for its intense volcanic activity?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Europa",
+      "answer": "Io"
+    },
+    {
+      "question": "Which moon of Saturn is the only known moon to have a substantial atmosphere?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Enceladus",
+      "answer": "Titan"
+    },
+    {
+      "question": "What is the largest moon of Saturn?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Enceladus",
+      "answer": "Titan"
+    },
+    {
+      "question": "Which moon of Jupiter is known for its subsurface ocean that may contain more water than all of Earth's oceans combined?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Europa",
+      "answer": "Europa"
+    },
+    {
+      "question": "Which moon of Saturn is famous for its geysers of water ice and organic molecules erupting from its south pole?",
+      "variant1": "Ganymede",
+      "variant2": "Titan",
+      "variant3": "Io",
+      "variant4": "Enceladus",
+      "answer": "Enceladus"
+    },
+    {
+      "question": "What is the largest moon of Uranus?",
+      "variant1": "Triton",
+      "variant2": "Oberon",
+      "variant3": "Titania",
+      "variant4": "Miranda",
+      "answer": "Titania"
+    },
+    {
+      "question": "Which moon of Neptune is known for its highly irregular shape, often described as resembling a 'potato'?",
+      "variant1": "Triton",
+      "variant2": "Oberon",
+      "variant3": "Titania",
+      "variant4": "Miranda",
+      "answer": "Triton"
+    },
+    {
+      "question": "What is the largest moon of Mars?",
+      "variant1": "Deimos",
+      "variant2": "Phobos",
+      "variant3": "Ganymede",
+      "variant4": "Io",
+      "answer": "Phobos"
+    },
+    {
+      "question": "Which moon of Pluto was discovered in 1978 and is the largest of Pluto's five known moons?",
+      "variant1": "Charon",
+      "variant2": "Nix",
+      "variant3": "Hydra",
+      "variant4": "Kerberos",
+      "answer": "Charon"
+    }
+  ],
+
+  "quiz6": [
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/mercury_icon.png",
+      "variant1": "Mercury",
+      "variant2": "Venus",
+      "variant3": "Mars",
+      "variant4": "Earth"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/uranus_icon.png",
+
+      "variant1": "Jupiter",
+      "variant2": "Saturn",
+      "variant3": "Uranus",
+      "variant4": "Neptune"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/mars_icon.png",
+
+      "variant1": "Mars",
+      "variant2": "Jupiter",
+      "variant3": "Venus",
+      "variant4": "Saturn"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/venus_icon.png",
+
+      "variant1": "Uranus",
+      "variant2": "Earth",
+      "variant3": "Venus",
+      "variant4": "Mars"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/saturn_icon.png",
+
+      "variant1": "Saturn",
+      "variant2": "Mercury",
+      "variant3": "Jupiter",
+      "variant4": "Neptune"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/TRAPPIST_icon.png",
+
+      "variant1": "TRAPPIST",
+      "variant2": "Osiris",
+      "variant3": "MakeMake",
+      "variant4": "Kepler-16b"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/jupiter_icon.png",
+
+      "variant1": "Jupiter",
+      "variant2": "Saturn",
+      "variant3": "Mars",
+      "variant4": "Neptune"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/earth_icon.png",
+
+      "variant1": "Uranus",
+      "variant2": "Venus",
+      "variant3": "Mercury",
+      "variant4": "Earth"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/eris_icon.png",
+
+      "variant1": "Haumea",
+      "variant2": "Eris",
+      "variant3": "Ceres",
+      "variant4": "Pluto"
+    },
+    {
+      "question": "How is the planet called in the image?",
+      "answer": "assets/images/neptune_icon.png",
+
+      "variant1": "Neptune",
+      "variant2": "Venus",
+      "variant3": "Uranus",
+      "variant4": "Mercury"
+    }
+  ]
+
+
+
+}

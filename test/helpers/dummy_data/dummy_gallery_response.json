@@ -1,0 +1,25 @@
+{
+  "total": 1000,
+  "total_pages": 100,
+  "results": [
+    {
+      "id": "sample_id",
+      "description": "A beautiful scenery",
+      "alt_description": "Mountains with a clear sky",
+      "urls": {
+        "raw": "https://example.com/raw.jpg",
+        "full": "https://example.com/full.jpg",
+        "regular": "https://example.com/regular.jpg",
+        "small": "https://example.com/small.jpg",
+        "thumb": "https://example.com/thumb.jpg"
+      },
+      "links": {
+        "self": "https://api.example.com/photos/sample_id",
+        "html": "https://example.com/photos/sample_id",
+        "download": "https://example.com/photos/sample_id/download",
+        "download_location": "https://api.example.com/photos/sample_id/download"
+      },
+      "likes": 45
+    }
+  ]
+}

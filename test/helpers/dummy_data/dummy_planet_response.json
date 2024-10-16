@@ -1,0 +1,8 @@
+{
+  "name": "Mars",
+  "description": "The Red Planet",
+  "image_url": "https://example.com/mars.jpg",
+  "planetType": "Terrestrial",
+  "explanation": "Mars is the fourth planet from the Sun.",
+  "whatis": "It is a potential future habitat for humanity."
+}

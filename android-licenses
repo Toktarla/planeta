@@ -1,0 +1,12 @@
+Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel stable, 3.13.5, on Microsoft Windows [Version 10.0.19045.3448], locale ru-KZ)
+[√] Windows Version (Installed version of Windows is version 10 or higher)
+[√] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+[√] Chrome - develop for the web
+[√] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.7.4)
+[√] Android Studio (version 2021.3)
+[√] Connected device (3 available)
+    ! Device emulator-5554 is offline.
+[√] Network resources
+
+• No issues found!
