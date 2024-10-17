@@ -7,7 +7,6 @@ import 'package:untitled/features/data/data_sources/remote/gallery/gallery_api_s
 import 'package:untitled/features/domain/entities/gallery_entity.dart';
 import 'package:untitled/features/domain/repository/gallery_repository.dart';
 
-import 'package:untitled/features/domain/repository/nasa_article_repository.dart';
 
 class GalleryRepositoryImpl extends GalleryRepository {
 

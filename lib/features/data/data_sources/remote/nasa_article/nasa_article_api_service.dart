@@ -2,7 +2,6 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:untitled/core/constants/constants.dart';
-import 'package:untitled/features/data/models/nasa_article_model.dart';
 import '../../../../domain/entities/nasa_article_entity.dart';
 part 'nasa_article_api_service.g.dart';
 

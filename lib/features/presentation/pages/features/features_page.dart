@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:untitled/core/constants/constants.dart';
 import 'package:untitled/features/presentation/pages/features/apod_image_page.dart';
 import 'package:untitled/features/presentation/pages/features/people_in_space_page.dart';
 import 'package:untitled/features/presentation/widgets/feature_list_tile.dart';

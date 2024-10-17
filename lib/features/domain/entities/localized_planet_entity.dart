@@ -1,4 +1,3 @@
-import 'package:equatable/equatable.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 
 class LocalizedPlanetEntity extends PlanetEntity {

@@ -5,7 +5,6 @@ import 'package:untitled/features/presentation/pages/features/features_page.dart
 import 'package:untitled/features/presentation/pages/features/people_in_space_page.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planets_gallery.dart';
-import 'package:untitled/features/presentation/pages/practice/practice_page.dart';
 import 'package:untitled/features/presentation/pages/settings/donation_page.dart';
 import 'package:untitled/features/presentation/pages/features/save_nasa_article_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planet_quiz_page.dart';

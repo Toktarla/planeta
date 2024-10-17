@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:untitled/core/exceptions/exceptions.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/domain/usecases/planet_usecases/remove_planet_usecase.dart';
 import '../../../helpers/test_helper.mocks.dart';

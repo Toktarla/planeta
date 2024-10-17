@@ -10,7 +10,6 @@ import '../../bloc/nasa_article/remote/remote_nasa_article_event.dart';
 import '../../bloc/nasa_article/remote/remote_nasa_article_state.dart';
 import '../../widgets/nasa_article_widget.dart';
 import 'nasa_article_detail.page.dart';
-import 'package:intl/intl.dart';
 
 
 class ApodImagePage extends StatelessWidget {

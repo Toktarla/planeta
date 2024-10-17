@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:sqflite/sqflite.dart' as sqflite;
-import 'package:path/path.dart';
 import 'package:floor/floor.dart';
 import 'package:untitled/features/data/data_sources/local/DAO/planet_dao.dart';
 import 'package:untitled/features/data/models/nasa_article_model.dart';
