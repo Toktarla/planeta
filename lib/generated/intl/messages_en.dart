@@ -30,7 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bottomBarTitle1": MessageLookupByLibrary.simpleMessage("Planets"),
         "bottomBarTitle2": MessageLookupByLibrary.simpleMessage("Practice"),
         "bottomBarTitle3": MessageLookupByLibrary.simpleMessage("Features"),
-        "bottomBarTitle4": MessageLookupByLibrary.simpleMessage("Settings"),
+        "bottomBarTitle4": MessageLookupByLibrary.simpleMessage("Introduction"),
         "day": MessageLookupByLibrary.simpleMessage("Day"),
         "donation_page_text1":
             MessageLookupByLibrary.simpleMessage("Project Support❤"),

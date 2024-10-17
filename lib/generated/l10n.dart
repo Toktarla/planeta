@@ -90,10 +90,10 @@ class S {
     );
   }
 
-  /// `Settings`
+  /// `Introduction`
   String get bottomBarTitle4 {
     return Intl.message(
-      'Settings',
+      'Introduction',
       name: 'bottomBarTitle4',
       desc: '',
       args: [],

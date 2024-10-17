@@ -3,11 +3,14 @@ import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/pages/features/features_page.dart';
 import 'package:untitled/features/presentation/pages/features/people_in_space_page.dart';
+import 'package:untitled/features/presentation/pages/introduction/introduction_page.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planets_gallery.dart';
+import 'package:untitled/features/presentation/pages/practice/practice_page.dart';
 import 'package:untitled/features/presentation/pages/settings/donation_page.dart';
 import 'package:untitled/features/presentation/pages/features/save_nasa_article_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planet_quiz_page.dart';
+import 'package:untitled/features/presentation/pages/settings/settings_page.dart';
 import '../../core/errors/error_page.dart';
 import '../../features/presentation/pages/features/apod_image_page.dart';
 import '../../features/presentation/pages/home/bottom_navigation.dart';
@@ -33,6 +36,8 @@ class AppRoutes {
         return _materialRoute(const AboutPage());
       case '/DonationPage':
         return _materialRoute(const DonationPage());
+      case '/SettingsPage':
+        return _materialRoute(const SettingsPage());
       case '/FavouritePlanetsPage':
         return _materialRoute(const FavouritePlanetsPage());
       case '/ErrorPage':
@@ -51,6 +56,8 @@ class AppRoutes {
         return _materialRoute( PlanetQuizPage(indexOfQuiz: settings.arguments as int,questions: settings.arguments as dynamic, quizTitle: settings.arguments as String,language: settings.arguments as String,));
       case '/PeopleInSpacePage':
         return _materialRoute(PeopleInSpacePage());
+      case '/IntroductionPage':
+        return _materialRoute(IntroductionPage());
       case "/PrimaryPlanetsGallery":
         return _materialRoute(PrimaryPlanetsGallery(title: settings.arguments as String,indexOfTitle: settings.arguments as int, imageTitles: [],));
       default:

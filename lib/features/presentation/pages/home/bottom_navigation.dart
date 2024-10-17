@@ -7,6 +7,7 @@ import 'package:untitled/core/constants/constants.dart';
 import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
 import 'package:untitled/core/route_animations/turn_right_route_animation.dart';
 import 'package:untitled/features/presentation/pages/features/features_page.dart';
+import 'package:untitled/features/presentation/pages/introduction/introduction_page.dart';
 import 'package:untitled/features/presentation/pages/planet/favourite_planets_page.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/features/presentation/pages/settings/settings_page.dart';
@@ -31,7 +32,6 @@ class BottomNavigation extends StatelessWidget {
       PlanetPage(),
       PracticePage(),
       FeaturesPage(),
-      SettingsPage()
     ];
     final List appBar = [
       AppBar(
@@ -60,7 +60,6 @@ class BottomNavigation extends StatelessWidget {
       ),
       null,
       null,
-      null
     ];
     return BlocBuilder<IndexCubit, int>(
       builder: (context, state) {
@@ -93,16 +92,20 @@ class BottomNavigation extends StatelessWidget {
                 unselectedColor: Theme.of(context).bottomNavigationBarTheme.unselectedItemColor,
 
               ),
-              SalomonBottomBarItem(
-                icon: Icon(Icons.settings),
-                title: Text(AppLocalizations.of(context)!.bottomBarTitle4),
-                selectedColor: Theme.of(context).bottomNavigationBarTheme.selectedItemColor,
-                unselectedColor: Theme.of(context).bottomNavigationBarTheme.unselectedItemColor,
-
-              ),
             ],
           ),
           body: _screens[state],
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  FadeInRoute(
+                      page: IntroductionPage(),
+                      routeName: "/IntroductionPage"));
+            },
+            child: FaIcon(Icons.start),
+          ),
+          floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
         );
       },
     );

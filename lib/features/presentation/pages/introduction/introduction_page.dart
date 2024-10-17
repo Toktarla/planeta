@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:untitled/core/constants/app_text_styles.dart';
 import 'package:untitled/core/constants/app_colors.dart';
+import 'package:untitled/core/utils/dialog_helper.dart';
 import 'package:untitled/features/data/models/planet_model.dart';
 import 'package:untitled/features/presentation/widgets/circle_button.dart';
 import 'earth_page.dart';
@@ -18,7 +19,6 @@ class _IntroductionPageState extends State<IntroductionPage> with TickerProvider
 
   // Animations
   late AnimationController _cloudController;
-  late Animation<double> _cloudAnimation;
 
   late AnimationController _starController;
   late Animation<double> _starAnimation;
@@ -74,7 +74,6 @@ class _IntroductionPageState extends State<IntroductionPage> with TickerProvider
     // Venus Animation
     _cloudController = AnimationController(vsync: this, duration: const Duration(seconds: 2))
       ..repeat(reverse: true);
-    _cloudAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(_cloudController);
 
     // Earth Animation
     _starController = AnimationController(vsync: this, duration: const Duration(seconds: 2))
@@ -102,7 +101,7 @@ class _IntroductionPageState extends State<IntroductionPage> with TickerProvider
                     height: 60,
                     circleColor: Colors.black,
                     onPressed: () {
-
+                      DialogHelper.openFullScreenDialog(context,planets);
                     },
                     child: Icon(Icons.menu_outlined, color: AppColors.introTitleColor),
                 ),
