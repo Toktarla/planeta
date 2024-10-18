@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
-
-import '../../../../core/constants/constants.dart';
+import 'package:untitled/core/constants/constants.dart';
 import '../../../domain/entities/people_in_space.dart';
 
 class AstroApiService {

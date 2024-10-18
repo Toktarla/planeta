@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/pages/features/features_page.dart';
-import 'package:untitled/features/presentation/pages/features/people_in_space_page.dart';
+import 'package:untitled/features/presentation/pages/features/people_in_space/people_in_space_page.dart';
 import 'package:untitled/features/presentation/pages/introduction/introduction_page.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planets_gallery.dart';
 import 'package:untitled/features/presentation/pages/practice/practice_page.dart';
 import 'package:untitled/features/presentation/pages/settings/donation_page.dart';
-import 'package:untitled/features/presentation/pages/features/save_nasa_article_page.dart';
+import 'package:untitled/features/presentation/pages/features/apod/save_nasa_article_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planet_quiz_page.dart';
 import 'package:untitled/features/presentation/pages/settings/settings_page.dart';
 import '../../core/errors/error_page.dart';
-import '../../features/presentation/pages/features/apod_image_page.dart';
+import '../../features/presentation/pages/features/apod/apod_image_page.dart';
 import '../../features/presentation/pages/home/bottom_navigation.dart';
 import '../../features/presentation/pages/planet/favourite_planets_page.dart';
 import '../../features/presentation/pages/practice/learn_planets_page.dart';
 import '../../features/presentation/pages/practice/practice_planets_page.dart';
 import '../../features/presentation/pages/settings/about_page.dart';
-import '../../features/presentation/pages/features/nasa_article_detail.page.dart';
+import '../../features/presentation/pages/features/apod/nasa_article_detail.page.dart';
 
 class AppRoutes {
   static Route onGenerateRoutes(RouteSettings settings) {

@@ -6,10 +6,10 @@ import 'package:ionicons/ionicons.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/presentation/bloc/nasa_article/local/local_nasa_article_bloc.dart';
 import 'package:untitled/features/presentation/bloc/nasa_article/local/local_nasa_article_state.dart';
-import '../../../../../injection_container.dart';
-import '../../bloc/nasa_article/local/local_nasa_article_event.dart';
-import '../../widgets/nasa_article_tile.dart';
-import '../../widgets/nasa_article_widget.dart';
+import '../../../../../../injection_container.dart';
+import '../../../bloc/nasa_article/local/local_nasa_article_event.dart';
+import '../../../widgets/nasa_article_tile.dart';
+import '../../../widgets/nasa_article_widget.dart';
 
 class SavedNasaArticlesPage extends HookWidget{
   const SavedNasaArticlesPage({Key ? key});

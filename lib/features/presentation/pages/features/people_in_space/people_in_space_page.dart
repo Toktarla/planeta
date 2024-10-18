@@ -1,18 +1,34 @@
 import 'dart:ui';
 
 import 'package:dio/dio.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:intl/intl.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:untitled/features/data/data_sources/remote/people_in_space_service.dart';
 import 'package:untitled/features/domain/entities/people_in_space.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
-import '../../../../injection_container.dart';
+import '../../../../../injection_container.dart';
 
 class PeopleInSpacePage extends StatelessWidget {
   const PeopleInSpacePage({Key? key}) : super(key: key);
+
+  String _formatDate(String date) {
+    final parsedDate = DateTime.parse(date);
+    return DateFormat.yMMMd().add_Hm().format(parsedDate);
+  }
+
+  Future<void> _launchURL(String url) async {
+    if (await canLaunchUrlString(url)) {
+      await launchUrlString(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +50,6 @@ class PeopleInSpacePage extends StatelessWidget {
                 highlightColor: Colors.grey[100]!,
                 child: Column(
                   children: [
-
                     Container(
                       width: double.infinity,
                       height: 80.h,
@@ -48,48 +63,24 @@ class PeopleInSpacePage extends StatelessWidget {
                     ),
                     Expanded(
                       child: ListView.builder(
-                        itemCount: 8,
-                        itemBuilder: (_, __) => Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 48.h,
-                                height: 48.h,
-                                decoration: BoxDecoration(
-                                  color: Colors.grey,
-                                  shape: BoxShape.circle,
-                                ),
+                        itemCount: 10,
+                        itemBuilder: (context, index) {
+                          return Card(
+                            elevation: 2,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            child: ListTile(
+                              contentPadding: EdgeInsets.all(16.0),
+                              leading: CircleAvatar(
+                                backgroundColor: Colors.grey,
+                                radius: 30.0,
                               ),
-                              const SizedBox(width: 16),
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Container(
-                                      width: double.infinity,
-                                      height: 20.h,
-                                      color: Colors.grey,
-                                    ),
-                                    const SizedBox(height: 8),
-                                    Container(
-                                      width: 150.w,
-                                      height: 20.h,
-                                      color: Colors.grey,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              const SizedBox(width: 16),
-                              Container(
-                                width: 24.w,
-                                height: 24.h,
-                                color: Colors.grey,
-                              ),
-                            ],
-                          ),
-                        ),
+                              title: Container(height: 10, width: 80, color: Colors.grey),
+                              subtitle: Container(height: 10, width: 80, color: Colors.grey),
+                            ),
+                          );
+                        },
                       ),
                     ),
                   ],
@@ -119,8 +110,8 @@ class PeopleInSpacePage extends StatelessWidget {
                         ),
                         SizedBox(width: 10),
                         Text(
-                          'In space now: ',
-                          style: Theme.of(context).textTheme.displayLarge
+                            'In space now: ',
+                            style: Theme.of(context).textTheme.displayLarge
                         ),
                         Text(
                             astroResponse.number.toString(),
@@ -142,22 +133,25 @@ class PeopleInSpacePage extends StatelessWidget {
                             child: ListTile(
                               contentPadding: EdgeInsets.all(16.0),
                               leading: CircleAvatar(
-                                backgroundColor: Theme.of(context).primaryColor,
-                                child: Text(
-                                  astronaut.name[0], // First letter of the name
-                                  style: Theme.of(context).textTheme.displayLarge
+                                backgroundImage: CachedNetworkImageProvider(
+                                    astronaut.imageUrl,
                                 ),
+                                radius: 30.0,
                               ),
                               title: Text(
                                 astronaut.name,
-                                style: Theme.of(context).textTheme.titleLarge
+                                style: Theme.of(context).textTheme.titleLarge,
                               ),
-                              subtitle: Text('Craft: ${astronaut.craft}',style: Theme.of(context).textTheme.bodyMedium,),
-                              trailing: Icon(Icons.navigate_next),
+                              subtitle: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('Country: ${astronaut.country}', style: Theme.of(context).textTheme.bodyMedium),
+                                  Text('Agency: ${astronaut.agency}', style: Theme.of(context).textTheme.bodyMedium),
+                                ],
+                              ),
+                              trailing: Icon(Icons.launch),
                               onTap: () {
-
-
-
+                                _launchURL(astronaut.url);
                               },
                             ),
                           );

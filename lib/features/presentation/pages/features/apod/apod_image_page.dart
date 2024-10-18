@@ -3,12 +3,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
-import 'package:untitled/features/presentation/pages/features/save_nasa_article_page.dart';
-import '../../../domain/entities/nasa_article_entity.dart';
-import '../../bloc/nasa_article/remote/remote_nasa_article_bloc.dart';
-import '../../bloc/nasa_article/remote/remote_nasa_article_event.dart';
-import '../../bloc/nasa_article/remote/remote_nasa_article_state.dart';
-import '../../widgets/nasa_article_widget.dart';
+import 'package:untitled/features/presentation/pages/features/apod/save_nasa_article_page.dart';
+import '../../../../domain/entities/nasa_article_entity.dart';
+import '../../../bloc/nasa_article/remote/remote_nasa_article_bloc.dart';
+import '../../../bloc/nasa_article/remote/remote_nasa_article_event.dart';
+import '../../../bloc/nasa_article/remote/remote_nasa_article_state.dart';
+import '../../../widgets/nasa_article_widget.dart';
 import 'nasa_article_detail.page.dart';
 
 

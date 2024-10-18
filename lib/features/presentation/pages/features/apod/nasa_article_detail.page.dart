@@ -8,8 +8,8 @@ import 'package:ionicons/ionicons.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/presentation/bloc/nasa_article/local/local_nasa_article_bloc.dart';
-import '../../../../../injection_container.dart';
-import '../../bloc/nasa_article/local/local_nasa_article_event.dart';
+import '../../../../../../injection_container.dart';
+import '../../../bloc/nasa_article/local/local_nasa_article_event.dart';
 
 class NasaArticleDetailsViewPage extends HookWidget{
   final NasaArticleEntity? article;

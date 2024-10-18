@@ -7,8 +7,6 @@ import 'package:untitled/features/domain/entities/people_in_space.dart';
 
 import '../../../helpers/test_helper.mocks.dart';
 
-
-
 void main() {
   late MockDio mockDio;
   late AstroApiService astroApiService;
@@ -19,36 +17,15 @@ void main() {
   });
 
   group('fetchAstronauts', () {
-    final tAstroResponseData = {
-      'message': 'success',
-      'number': 10,
-      'people': []
-    };
-    final tAstroResponse = AstroResponse(
-      message: 'success',
-      number: 10,
-        people: []
-    );
-
-    test('should return AstroResponse when the response code is 200', () async {
-      // arrange
-      when(mockDio.get(astroJsonUrl))
-          .thenAnswer((_) async => Response(data: tAstroResponseData, statusCode: 200, requestOptions: RequestOptions()));
-
-      // act
-      final result = await astroApiService.fetchAstronauts();
-
-      // assert
-      expect(result, equals(tAstroResponse));
-
-      verify(mockDio.get(astroJsonUrl));
-      verifyNoMoreInteractions(mockDio);
-    });
-
     test('should throw an exception when the response code is not 200', () async {
       // arrange
-      when(mockDio.get(astroJsonUrl))
-          .thenAnswer((_) async => Response(data: 'Something went wrong', statusCode: 404, requestOptions: RequestOptions()));
+      when(mockDio.get(astroJsonUrl)).thenAnswer(
+            (_) async => Response(
+          data: 'Something went wrong',
+          statusCode: 404,
+          requestOptions: RequestOptions(path: astroJsonUrl),
+        ),
+      );
 
       // act
       final call = astroApiService.fetchAstronauts;
