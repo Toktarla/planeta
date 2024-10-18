@@ -3,13 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled/core/resources/data.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/bloc/planet/local/local_planet_bloc.dart';
 import 'package:untitled/features/presentation/bloc/planet/local/local_planet_event.dart';
-import 'package:untitled/features/presentation/bloc/planet/local/local_planet_state.dart';
-
-import '../../../core/constants/constants.dart';
 import '../../../injection_container.dart';
 
 class PlanetListTile extends StatelessWidget {

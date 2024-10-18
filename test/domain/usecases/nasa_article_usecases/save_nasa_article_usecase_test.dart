@@ -1,9 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:untitled/core/exceptions/exceptions.dart';
+import 'package:untitled/core/errors/exceptions.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/domain/usecases/nasa_article_usecases/save_nasa_article_usecase.dart';
-
 import '../../../helpers/test_helper.mocks.dart';
 
 void main() {

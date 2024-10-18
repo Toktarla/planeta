@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:dio/dio.dart';
 import 'package:untitled/core/constants/constants.dart';
 import 'package:untitled/core/resources/data_state.dart';
@@ -9,7 +8,7 @@ import 'package:untitled/features/data/models/nasa_article_model.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/domain/repository/nasa_article_repository.dart';
 
-import '../../../core/exceptions/exceptions.dart';
+import '../../../core/errors/exceptions.dart';
 
 class NasaArticleRepositoryImpl extends NasaArticleRepository {
   final NasaArticleApiService _nasaArticleApiService;

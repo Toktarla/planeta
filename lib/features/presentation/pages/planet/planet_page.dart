@@ -1,13 +1,9 @@
-import 'dart:convert';
-import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/l10n/jsonlocalization.dart';
-
-import '../../../../core/route_animations/fade_in_route_animation.dart';
+import '../../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../widgets/planet_list_tile.dart';
 
 class PlanetPage extends StatelessWidget {

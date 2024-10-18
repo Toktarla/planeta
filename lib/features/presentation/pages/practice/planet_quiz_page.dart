@@ -7,6 +7,7 @@ import 'package:untitled/core/extensions/string_extension.dart';
 import 'package:untitled/features/presentation/cubit/localization_cubit.dart';
 import 'package:untitled/features/presentation/pages/practice/quiz_result_screen.dart';
 import '../../../../../../injection_container.dart';
+import '../../../../core/utils/functions.dart';
 import '../../../domain/entities/question_entity.dart';
 
 class PlanetQuizPage extends StatefulWidget {
@@ -30,8 +31,8 @@ class PlanetQuizPage extends StatefulWidget {
     } else {
       for (final question in questions) {
         final originalAnswer;
-        language == "ru" ? originalAnswer = translateToRussian(extractFromImagePathPlanetName(question.answer).capitalize())
-            :         originalAnswer = extractFromImagePathPlanetName(question.answer).capitalize();
+        language == "ru" ? originalAnswer = AppFunctions.translateToRussian(AppFunctions.extractFromImagePathPlanetName(question.answer).capitalize())
+            :         originalAnswer = AppFunctions.extractFromImagePathPlanetName(question.answer).capitalize();
         ;
         question.variants!.shuffle();
         final newAnswerIndex = question.variants!.indexOf(originalAnswer);
@@ -154,7 +155,7 @@ class _PlanetQuizPageState extends State<PlanetQuizPage> {
                           decoration: BoxDecoration(
                               image: DecorationImage(
                             image: Image.asset(
-                                    "assets/images/${widget.language == "ru" ? translateToEnglish(widget.questions[index].answer).toLowerCase() :  widget.questions[index].answer.toLowerCase() }_icon.png")
+                                    "assets/images/${widget.language == "ru" ? AppFunctions.translateToEnglish(widget.questions[index].answer).toLowerCase() :  widget.questions[index].answer.toLowerCase() }_icon.png")
                                 .image,
                           )),
                         )

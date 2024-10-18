@@ -2,11 +2,11 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
 import 'package:untitled/features/data/models/planet_model.dart';
 import 'package:untitled/features/presentation/pages/home/bottom_navigation.dart';
 import 'package:untitled/features/presentation/widgets/circle_button.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/utils/dialog_helper.dart';
 

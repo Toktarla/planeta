@@ -1,25 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:untitled/core/constants/constants.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
+import 'package:untitled/core/utils/functions.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/bloc/gallery/remote/remote_gallery_bloc.dart';
-import 'package:untitled/features/presentation/bloc/gallery/remote/remote_gallery_event.dart';
-import 'package:untitled/features/presentation/bloc/gallery/remote/remote_gallery_state.dart';
 import 'package:untitled/features/presentation/pages/planet/planet_explanation_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planets_gallery.dart';
 import 'package:untitled/l10n/jsonlocalization.dart';
-
+import '../../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../../../injection_container.dart';
-import '../../../domain/entities/gallery_entity.dart';
 
 class LearnPlanetsPage extends StatelessWidget {
   const LearnPlanetsPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final quizTitles = readQuizTitles(context);
+    final quizTitles = AppFunctions.readQuizTitles(context);
     final imageTitles = [
       "primary%20planets",
       "dwarf%20planets",

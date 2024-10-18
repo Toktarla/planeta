@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
+
+import '../../../config/routes/route_animations/fade_in_route_animation.dart';
 
 class FeatureListTile extends StatelessWidget {
   const FeatureListTile({

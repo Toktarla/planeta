@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled/core/constants/constants.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
 import 'package:untitled/features/presentation/cubit/localization_cubit.dart';
-import 'package:untitled/features/presentation/pages/practice/practice_page.dart';
 import 'package:untitled/features/presentation/pages/practice/planet_quiz_page.dart';
-
+import '../../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../../../core/constants/app_colors.dart';
+import '../../../../core/utils/functions.dart';
 import '../../../../injection_container.dart';
 import '../../../../l10n/jsonlocalization.dart';
 import '../../../domain/entities/question_entity.dart';
@@ -19,7 +17,7 @@ class PracticePlanetsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final quizTitles = readQuizTitles(context);
+    final quizTitles = AppFunctions.readQuizTitles(context);
 
     final _prefs = sl<SharedPreferences>();
     return Scaffold(

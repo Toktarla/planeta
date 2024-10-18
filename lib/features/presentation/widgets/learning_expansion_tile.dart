@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
-
+import '../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../domain/entities/planet_entity.dart';
 import '../pages/planet/planet_explanation_page.dart';
 

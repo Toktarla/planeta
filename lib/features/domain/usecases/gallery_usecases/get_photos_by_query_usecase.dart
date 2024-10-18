@@ -1,5 +1,5 @@
 import 'package:untitled/core/resources/data_state.dart';
-import 'package:untitled/core/usecase/usecase.dart';
+import 'package:untitled/core/resources/usecase.dart';
 import 'package:untitled/features/domain/entities/gallery_entity.dart';
 import 'package:untitled/features/domain/entities/nasa_article_entity.dart';
 import 'package:untitled/features/domain/repository/gallery_repository.dart';

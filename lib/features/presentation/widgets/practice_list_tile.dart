@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
 
-import '../../../core/constants/constants.dart';
+import '../../../config/routes/route_animations/fade_in_route_animation.dart';
 
 class PracticeListTile extends StatelessWidget {
   const PracticeListTile({Key? key, required this.width, required this.height, required this.title, required this.icon, required this.imageUrl, required this.route, required this.page}) : super(key: key);

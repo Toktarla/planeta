@@ -4,8 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled/core/constants/constants.dart';
-import 'package:untitled/core/resources/data.dart';
 import 'package:untitled/features/domain/entities/planet_entity.dart';
 import 'package:untitled/features/presentation/bloc/planet/local/local_planet_bloc.dart';
 import 'package:untitled/features/presentation/bloc/planet/local/local_planet_event.dart';

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled/core/route_animations/fade_in_route_animation.dart';
 import 'package:untitled/features/presentation/pages/practice/practice_planets_page.dart';
-
-import '../../../../core/constants/constants.dart';
+import '../../../../config/routes/route_animations/fade_in_route_animation.dart';
 import '../../../../injection_container.dart';
 
 class ResultScreen extends StatelessWidget {
