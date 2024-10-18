@@ -1,5 +1,8 @@
 # Planets App 🌍
 
+![](screenshots/photo.png)
+
+
 Welcome to the **Planets App**! This app provides an engaging way to learn about planets, astronomy, and space exploration. Featuring quizzes, animations, interactive elements, and data from two powerful space APIs, this app is built with Clean Architecture and includes multi-language localization and theming.
 
 ## Features ✨
