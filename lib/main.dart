@@ -12,7 +12,7 @@ import 'package:untitled/l10n/l10n_class.dart';
 import 'package:untitled/config/routes/routes.dart';
 import 'package:untitled/features/presentation/bloc/nasa_article/remote/remote_nasa_article_bloc.dart';
 import 'package:untitled/features/presentation/cubit/index_cubit.dart';
-import 'config/theme/theme_cubit.dart';
+import 'features/presentation/cubit/theme_cubit.dart';
 import 'injection_container.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'features/presentation/pages/introduction/introduction_page.dart';

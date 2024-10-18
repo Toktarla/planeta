@@ -44,6 +44,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "earth_and_moon":
             MessageLookupByLibrary.simpleMessage("Earth and Moon"),
         "exoplanets": MessageLookupByLibrary.simpleMessage("Exoplanets"),
+        "explore_the_planets":
+            MessageLookupByLibrary.simpleMessage("Explore the planets"),
         "feature1_description": MessageLookupByLibrary.simpleMessage(
             "Find out what space was like on your birthday"),
         "feature1_name": MessageLookupByLibrary.simpleMessage(
@@ -65,6 +67,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Practice makes perfect! Here, you can test yourself and learn something new about our fascinating solar system. Explore the planets, test your knowledge, and dive into the wonders of space. Whether you\'re a beginner or a space enthusiast, there\'s always something new to discover. Learn and practice with our interactive quizzes and educational resources"),
         "learn_planets": MessageLookupByLibrary.simpleMessage("Learn Planets"),
         "night": MessageLookupByLibrary.simpleMessage("Night"),
+        "practice_and_learn":
+            MessageLookupByLibrary.simpleMessage("Practice and learn planets"),
         "practice_planets":
             MessageLookupByLibrary.simpleMessage("Practice Planets"),
         "primary_planets":

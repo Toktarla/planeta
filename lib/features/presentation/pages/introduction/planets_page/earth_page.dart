@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/features/presentation/pages/introduction/star_painter.dart';
-import '../../../data/models/planet_model.dart';
+import 'package:untitled/features/presentation/widgets/star_painter.dart';
+import '../../../../data/models/planet_model.dart';
 
 class EarthPage extends StatelessWidget {
 

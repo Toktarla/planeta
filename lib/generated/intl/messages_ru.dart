@@ -44,6 +44,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Карликовые Планеты"),
         "earth_and_moon": MessageLookupByLibrary.simpleMessage("Земля и Луна"),
         "exoplanets": MessageLookupByLibrary.simpleMessage("Экзопланеты"),
+        "explore_the_planets":
+            MessageLookupByLibrary.simpleMessage("Исследовать планеты"),
         "feature1_description": MessageLookupByLibrary.simpleMessage(
             "Узнай, каким был космос в твой день рождения"),
         "feature1_name":
@@ -66,6 +68,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "learn_planets":
             MessageLookupByLibrary.simpleMessage("Изучение Планет"),
         "night": MessageLookupByLibrary.simpleMessage("Ночь"),
+        "practice_and_learn":
+            MessageLookupByLibrary.simpleMessage("Практикуй и изучай планеты"),
         "practice_planets":
             MessageLookupByLibrary.simpleMessage("Практика планет"),
         "primary_planets":

@@ -6,8 +6,8 @@ import 'package:untitled/core/constants/app_colors.dart';
 import 'package:untitled/core/utils/dialog_helper.dart';
 import 'package:untitled/features/data/models/planet_model.dart';
 import 'package:untitled/features/presentation/widgets/circle_button.dart';
-import 'earth_page.dart';
-import 'planet_fullscreen_page.dart';
+import 'planets_page/earth_page.dart';
+import 'planets_page/planet_fullscreen_page.dart';
 import 'dart:math' as math;
 
 class IntroductionPage extends StatefulWidget {
@@ -103,7 +103,7 @@ class _IntroductionPageState extends State<IntroductionPage> with TickerProvider
                     onPressed: () {
                       DialogHelper.openFullScreenDialog(context,planets);
                     },
-                    child: Icon(Icons.menu_outlined, color: AppColors.introTitleColor),
+                    child: Icon(Icons.menu_outlined, color: AppColors.whiteColor),
                 ),
               ),
             ),

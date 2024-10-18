@@ -21,7 +21,7 @@ import 'package:untitled/features/presentation/bloc/nasa_article/local/local_nas
 import 'package:untitled/features/presentation/bloc/planet/local/local_planet_bloc.dart';
 import 'package:untitled/features/presentation/cubit/index_cubit.dart';
 import 'package:untitled/features/presentation/cubit/localization_cubit.dart';
-import 'package:untitled/config/theme/theme_cubit.dart';
+import 'package:untitled/features/presentation/cubit/theme_cubit.dart';
 
 import 'features/data/data_sources/local/app_database.dart';
 import 'features/domain/usecases/planet_usecases/save_planet_usecase.dart';

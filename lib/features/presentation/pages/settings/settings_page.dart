@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
-import '../../../../config/theme/theme_cubit.dart';
+import '../../cubit/theme_cubit.dart';
 import '../../cubit/localization_cubit.dart';
 import '../../widgets/circle_button.dart';
 import '../../widgets/settings_widget.dart';
@@ -112,7 +112,6 @@ class _SettingsPageState extends State<SettingsPage> {
           Spacer(),
           Switch(
             activeColor: Theme.of(context).primaryColor,
-            activeTrackColor: Theme.of(context).cardColor,
             value: value,
             onChanged: (newValue) {
               setState(() {

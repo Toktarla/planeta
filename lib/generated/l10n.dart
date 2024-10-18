@@ -100,6 +100,26 @@ class S {
     );
   }
 
+  /// `Explore the planets`
+  String get explore_the_planets {
+    return Intl.message(
+      'Explore the planets',
+      name: 'explore_the_planets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Practice and learn planets`
+  String get practice_and_learn {
+    return Intl.message(
+      'Practice and learn planets',
+      name: 'practice_and_learn',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Language`
   String get settings_page_item1 {
     return Intl.message(
