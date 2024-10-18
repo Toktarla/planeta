@@ -68,7 +68,9 @@ dependencies:
   floor_generator: ^1.5.0
   animations: ^2.0.11
   animate_do: ^3.3.4
+
   flutter_staggered_animations: ^1.1.1
+  flutter_launcher_icons: ^0.14.1
 
 
 
